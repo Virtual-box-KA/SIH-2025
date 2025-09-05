@@ -32,3 +32,49 @@ As the problem statement describes, `multi-source data inputs` we need to use mu
 
 ### All these models can be used individually to implement and present data more precisely and well structured.
 
+## Mobile Application
+
+This project introduces an AI-driven rockfall prediction system integrated with an Android application for visualization, alerts, and decision-making.
+
+    The app provides
+     1) Real-time risk maps
+     2) Probability-based forecasts
+     3) Instant alerts (SMS/Email/Push)
+     4) Reports for decision support
+
+  ### Objectives
+     1) Predict potential rockfall incidents using multi-source data.
+     2) Enable real-time alerts for proactive safety measures.
+
+  ### Android App Features
+        1) Authentication:
+            Secure login/signup
+            Role-based access
+            
+        2) Dashboard:
+          Current rockfall risk level (Low/Medium/High)
+          Latest alerts summary
+
+        3) Risk Map:
+            Interactive GIS-based heatmap
+            Color-coded vulnerability zones
+            Tap to view probability % and sensor readings
+
+        4) Sensor Data:
+            Real-time graphs of:
+                Displacement
+                Strain
+                Pore pressure
+                Rainfall & Temperature
+            Custom time filtering (24h, 7 days, monthly)
+
+        5) Alerts & Notifications:
+            In-app, SMS, and Email alerts
+            Timestamp + location details
+            Recommended action plans
+            Recommended action plans
+
+        6) Settings:
+            Profile management
+            Profile management
+        
