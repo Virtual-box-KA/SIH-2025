@@ -19,11 +19,16 @@ As the problem statement describes, `multi-source data inputs` we need to use mu
      a. We will use CV2 to detect any visual changes in the frame (less ML-heavy model).
      b. CV2 will also be used to print a contour map of the same data. If any anomaly is found, it can be detected.
 
-  2. Environmental factors (rainfall, temperature, vibrations) – We propose to use `regression`, to predict any possible movement of the rock. If yes, how much will it move? Before it actually falls.
+  2. Environmental factors (rainfall, temperature, vibrations) – We propose to use `regression`, to predict any possible movement of the rock. If yes, how much
+     will it move? Before it actually falls.
 
-  3. Geotechnical sensor data (displacement, strain, pore pressure) – Similar to the 3rd point, `regression` can be used here as well.
+  4. Geotechnical sensor data (displacement, strain, pore pressure) – Similar to the 3rd point, `regression` can be used here as well.
 
-  4. Digital Elevation Models (DEM) – DEMs (simpler) can be used in Python. Any anomaly can be detected directly. If we go for complex data, we propose to use CNN.
+  5. Digital Elevation Models (DEM) – DEMs (simpler) can be used in Python. Any anomaly can be detected directly. If we go for complex data, we propose to use CNN/
+     GDAL (Geospatial Data Abstraction Library): A powerful library to read, write, and process raster and vector geospatial data, including DEMs.
+
+  6. Edge computing - Efficiently processing data near the source of data generation (e.g., sensors, drones) rather than sending it all to a centralized cloud.
+     This enables faster analysis, reduces latency, and lowers bandwidth use, which is crucial for real-time anomaly detection in mining environments.
 
 ### All these models can be used individually to implement and present data more precisely and well structured.
 
