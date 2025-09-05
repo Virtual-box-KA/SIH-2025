@@ -5,11 +5,8 @@ Solution - We will take the multi-source data input. Process the data, and predi
 We are dividing the problem statement into 4 parts as follows:
 
 1. Machine Learning Model
-
 2. Web Dashboard
-
 3. Mobile Application
-
 4. Monitoring hardware (optional, but we will try to implement it)
 
 ---
@@ -19,9 +16,7 @@ We are dividing the problem statement into 4 parts as follows:
 As the problem statement describes, `multi-source data inputs` we need to use multiple models.
 
   1. Drone-captured imagery – We propose to use `OpenCV/TensorFlow` it to compare it with the previous set of data and find if there is any anomaly detection.<br>
-
      a. We will use CV2 to detect any visual changes in the frame (less ML-heavy model).
-
      b. CV2 will also be used to print a contour map of the same data. If any anomaly is found, it can be detected.
 
   2. Environmental factors (rainfall, temperature, vibrations) – We propose to use `regression`, to predict any possible movement of the rock. If yes, how much will it move? Before it actually falls.
@@ -30,5 +25,5 @@ As the problem statement describes, `multi-source data inputs` we need to use mu
 
   4. Digital Elevation Models (DEM) – DEMs (simpler) can be used in Python. Any anomaly can be detected directly. If we go for complex data, we propose to use CNN.
 
-     All these models can be used individually to implement and present data more precisely and well structured.
+### All these models can be used individually to implement and present data more precisely and well structured.
 
