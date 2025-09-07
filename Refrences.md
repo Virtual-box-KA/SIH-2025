@@ -1,5 +1,21 @@
 # Backgroud - 
 
+1. Incidents -
+  From year 2013 - 2022 (Curated from ministry of mine safety).<br>
+  a. Total no of fatal accidents - 528<br>
+  b. No of death - 604<br>
+  c. Serious Accidents - 2614<br>
+  d. Seriously injured - 2733
+
+2. Mines statistics -<br>
+  a. Opencast mines contributed maximumm, 50% alone in the fatal accidents from 2013 - 2022,While staying on second postition in serious injuries.<br>
+  b. More over, Groud movements, including fall of sides, rock fall contribute about 18% in the over all fatal accidents. In the case of serious accidents, ground movement and falls are the major contributors constituting about 50-55% of the total accidents.<br>
+
+3. Operational mines in india -<br>
+  a. Provisional of `2036 mineral mines` are operation in india, with highest of 19% in Madhya Pradesh, followed by 14% in gujrat. 90% of these mineral mines are opencast.<br>
+  b. Coal India Limited alone operates, `310 coal mines` in india with 41% Underground mines, 55% Opencast mines and 4% mixed mines.<br>
+  c. `1 operation` opencast atomic mines.<br>
+---
 1. Satellite Data (Raster + GeoTIFF)
 Raster Data
 
